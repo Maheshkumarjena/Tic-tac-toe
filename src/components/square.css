@@ -1,0 +1,15 @@
+
+.square{
+    font-size: 70px;
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.square:hover {
+    box-shadow: 0 0 10px pink; /* Neon green shadow for the pop-out effect */
+    transform: scale(1.05); /* Pop-out effect: increase size by 10% */
+    transition:0.2s ;
+  }
